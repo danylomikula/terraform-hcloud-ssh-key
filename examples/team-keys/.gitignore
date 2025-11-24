@@ -1,0 +1,7 @@
+# Private keys (never commit these)
+team-members/alice
+team-members/bob
+team-members/carol
+
+# You can optionally ignore public keys too for security
+# team-members/*.pub
