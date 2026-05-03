@@ -45,11 +45,11 @@ keys/
 ## Requirements
 
 | Name | Version |
-|------|---------|
-| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.12.0 |
-| <a name="requirement_hcloud"></a> [hcloud](#requirement\_hcloud) | >= 1.45.0 |
-| <a name="requirement_local"></a> [local](#requirement\_local) | >= 2.4.0 |
-| <a name="requirement_tls"></a> [tls](#requirement\_tls) | >= 4.0.0 |
+| ---- | ------- |
+| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.13.0 |
+| <a name="requirement_hcloud"></a> [hcloud](#requirement\_hcloud) | >= 1.62.0 |
+| <a name="requirement_local"></a> [local](#requirement\_local) | >= 2.8.0 |
+| <a name="requirement_tls"></a> [tls](#requirement\_tls) | >= 4.2.0 |
 
 ## Providers
 
@@ -58,7 +58,7 @@ No providers.
 ## Modules
 
 | Name | Source | Version |
-|------|--------|---------|
+| ---- | ------ | ------- |
 | <a name="module_ssh_key_ecdsa"></a> [ssh\_key\_ecdsa](#module\_ssh\_key\_ecdsa) | ../.. | n/a |
 | <a name="module_ssh_key_ed25519"></a> [ssh\_key\_ed25519](#module\_ssh\_key\_ed25519) | ../.. | n/a |
 | <a name="module_ssh_key_rsa"></a> [ssh\_key\_rsa](#module\_ssh\_key\_rsa) | ../.. | n/a |
@@ -70,12 +70,12 @@ No resources.
 ## Inputs
 
 | Name | Description | Type | Default | Required |
-|------|-------------|------|---------|:--------:|
+| ---- | ----------- | ---- | ------- | :------: |
 | <a name="input_hcloud_token"></a> [hcloud\_token](#input\_hcloud\_token) | Hetzner Cloud API token. | `string` | n/a | yes |
 
 ## Outputs
 
 | Name | Description |
-|------|-------------|
+| ---- | ----------- |
 | <a name="output_keys"></a> [keys](#output\_keys) | Details of all generated SSH keys. |
 <!-- END_TF_DOCS -->

@@ -31,9 +31,9 @@ ssh -i example-key.key root@your-server-ip
 ## Requirements
 
 | Name | Version |
-|------|---------|
-| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.12.0 |
-| <a name="requirement_hcloud"></a> [hcloud](#requirement\_hcloud) | >= 1.45.0 |
+| ---- | ------- |
+| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.13.0 |
+| <a name="requirement_hcloud"></a> [hcloud](#requirement\_hcloud) | >= 1.62.0 |
 
 ## Providers
 
@@ -42,7 +42,7 @@ No providers.
 ## Modules
 
 | Name | Source | Version |
-|------|--------|---------|
+| ---- | ------ | ------- |
 | <a name="module_ssh_key"></a> [ssh\_key](#module\_ssh\_key) | ../.. | n/a |
 
 ## Resources
@@ -52,13 +52,13 @@ No resources.
 ## Inputs
 
 | Name | Description | Type | Default | Required |
-|------|-------------|------|---------|:--------:|
+| ---- | ----------- | ---- | ------- | :------: |
 | <a name="input_hcloud_token"></a> [hcloud\_token](#input\_hcloud\_token) | Hetzner Cloud API token. | `string` | n/a | yes |
 
 ## Outputs
 
 | Name | Description |
-|------|-------------|
+| ---- | ----------- |
 | <a name="output_private_key"></a> [private\_key](#output\_private\_key) | Private key in OpenSSH format - save this securely. |
 | <a name="output_private_key_file"></a> [private\_key\_file](#output\_private\_key\_file) | Path to the saved private key. |
 | <a name="output_public_key"></a> [public\_key](#output\_public\_key) | Public key in OpenSSH format. |

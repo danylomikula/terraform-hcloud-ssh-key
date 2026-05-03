@@ -61,9 +61,9 @@ locals {
 ## Requirements
 
 | Name | Version |
-|------|---------|
-| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.12.0 |
-| <a name="requirement_hcloud"></a> [hcloud](#requirement\_hcloud) | >= 1.45.0 |
+| ---- | ------- |
+| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.13.0 |
+| <a name="requirement_hcloud"></a> [hcloud](#requirement\_hcloud) | >= 1.62.0 |
 
 ## Providers
 
@@ -72,7 +72,7 @@ No providers.
 ## Modules
 
 | Name | Source | Version |
-|------|--------|---------|
+| ---- | ------ | ------- |
 | <a name="module_team_keys"></a> [team\_keys](#module\_team\_keys) | ../.. | n/a |
 
 ## Resources
@@ -82,13 +82,13 @@ No resources.
 ## Inputs
 
 | Name | Description | Type | Default | Required |
-|------|-------------|------|---------|:--------:|
+| ---- | ----------- | ---- | ------- | :------: |
 | <a name="input_hcloud_token"></a> [hcloud\_token](#input\_hcloud\_token) | Hetzner Cloud API token. | `string` | n/a | yes |
 
 ## Outputs
 
 | Name | Description |
-|------|-------------|
+| ---- | ----------- |
 | <a name="output_all_key_ids"></a> [all\_key\_ids](#output\_all\_key\_ids) | List of all team SSH key IDs for use with server module. |
 | <a name="output_team_keys"></a> [team\_keys](#output\_team\_keys) | Details of all team SSH keys. |
 <!-- END_TF_DOCS -->
